@@ -9,9 +9,6 @@ import { Location } from '@angular/common';
 export class ProfileComponent {
   constructor(private router:Router,private location:Location){}
   toggle(){
-    console.log('====================================');
-    console.log();
-    console.log('====================================');
     this.router.navigate(['/contact'])
     // this.location.go
   }
